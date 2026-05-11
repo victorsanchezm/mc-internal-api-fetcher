@@ -65,6 +65,9 @@ Pulsa ENTER en la terminal cuando la página ya esté autenticada.
 Se generará storageState.json.
 Edita fetch_states.js para añadir los siteAssetIds que quieras consultar (o modifica el script para leer desde un fichero):
 node fetch_states.js
+En pantalla veremos información del progreso:
+[1680/1680] 100.0% | elapsed 00:03:58 | ETA 00:00:00 | ok=1680 fail=0 | last=xxxxx
+Terminado. Generado: siteIds_by_siteAssetId.json
 
 # Se generará siteIds_by_siteAssetId.json.
 Ejecuta fetch_states_stp2.js:
